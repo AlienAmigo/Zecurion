@@ -1,9 +1,23 @@
-//@font-face {
-//  font-family: Montserrat;
-//  src:
-//    url('') format('woff2'),
-//    url('') format('woff');
-//  font-weight: 300;
-//  font-style: normal;
-//  font-display: block;
-//}
+@font-face {
+  font-family: NotoSans;
+  src:
+    url('../fonts/NotoSans.woff2') format('woff2'),
+    url('../fonts/NotoSans.woff') format('woff'),
+    url('../fonts/NotoSans.ttf') format('ttf'),
+    url('../fonts/NotoSans.eot') format('eot');
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: NotoSans;
+  src:
+    url('../fonts/NotoSans-Bold.woff2') format('woff2'),
+    url('../fonts/NotoSans-Bold.woff') format('woff'),
+    url('../fonts/NotoSans-Bold.ttf') format('ttf'),
+    url('../fonts/NotoSans-Bold.eot') format('eot');
+  font-weight: 700;
+  font-style: normal;
+  font-display: block;
+}
